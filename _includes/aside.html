@@ -5,15 +5,15 @@
             <!-- Begin New Code -->
              <Modal show={this.state.show} handleClose={this.hideModal} >
           <form method="POST" action="https://formspree.io/brittany.leigh.mccall@gmail.com">
-            <p> Name: </p><br>
+            <p> Name: </p>
             <input type="text" tyle="color:black" name="name" placeholder="Your Name"> <br>
-  <p> Email: </p><br>
+  <p> Email: </p>
             <input type="email" style="color:black" name="email" placeholder="Your Email"><br>
-  <p> Hours: </p><br>
+  <p> Hours: </p>
             <input type="text" tyle="color:black" name="hours" placeholder="Hours Requesting"><br>
-  <p> Services and More: </p><br>
+  <p> Services and More: (hold control and click to select more than 1) </p><br>
             <textarea name="message" tyle="color:black" placeholder="Desired Services and Other Info"></textarea><br>
-            <select name="services" size="6" multiple>
+            <select name="services" size="6" multiple style="color:black">
   <option value="socialmed">Social Media</option>
   <option value="email">Email Marketing</option>
   <option value="web">Website Maintenance</option>
