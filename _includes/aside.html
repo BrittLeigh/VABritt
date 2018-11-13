@@ -5,10 +5,17 @@
             <!-- Begin New Code -->
              <Modal show={this.state.show} handleClose={this.hideModal} >
           <form method="POST" action="https://formspree.io/brittany.leigh.mccall@gmail.com">
-<input type="text" tyle="color:black" name="name" placeholder="Your Name"> <br>
-  <input type="email" style="color:black" name="email" placeholder="Your Email"><br>
-  <input type="text" tyle="color:black" name="hours" placeholder="Hours Requesting"><br>
-  <textarea name="message" tyle="color:black" placeholder="Desired Services and Other Info"></textarea><br>
+            <p> Name: </p><br>
+            <input type="text" tyle="color:black" name="name" placeholder="Your Name"> <br>
+  <p> Email: </p><br>
+            <input type="email" style="color:black" name="email" placeholder="Your Email"><br>
+  <p> Hours: </p><br>
+            <input type="text" tyle="color:black" name="hours" placeholder="Hours Requesting"><br>
+  <p> Services and More: </p><br>
+            <textarea name="message" tyle="color:black" placeholder="Desired Services and Other Info"></textarea><br>
+            <input type="radio" name="services" value="Blog Management" checked> Blog Management<br>
+  <input type="radio" name="services" value="Email Marketing"> Email Marketing<br>
+  <input type="radio" name="services" value="Website Management"> Website Management <br>
   <button type="submit" class="btn btn-default btn-xl wow tada">Submit Info</button>
 </form>
         </Modal>
